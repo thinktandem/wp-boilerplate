@@ -1,0 +1,13 @@
+name: demosite
+recipe: wordpress
+config:
+  webroot: web
+  xdebug: true
+services:
+  nodeserver:
+    type: node:8
+tooling:
+   npm:
+     service: nodeserver
+   node:
+     service: nodeserver

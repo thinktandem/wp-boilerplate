@@ -1,0 +1,20 @@
+{
+  "name": "@thinktandem/bedrock",
+  "version": "0.0.1",
+  "license": "GPL-2.0",
+  "scripts": {
+    "setup": "chmod +x build.sh && ./build.sh",
+    "start": "npm i",
+    "predeploy": "npm start",
+    "deploy": "npm run deploy:removegit",
+    "deploy:removegit": "find web/ -type d -name '.git*' -exec rm -rf {} +"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thinktandem/bedrock.git"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0"
+  }
+}
