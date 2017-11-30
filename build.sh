@@ -43,7 +43,7 @@ lando wp package install aaemnnosttv/wp-cli-dotenv-command
 lando wp dotenv salts regenerate
 
 # install WordPress
-wp core install --url="$url" --title="$sitename" --admin_user="$username" --admin_password="$password" --admin_email="$email"
+lando wp core install --url="$url" --title="$sitename" --admin_user="$username" --admin_password="$password" --admin_email="$email"
 
 # Import config
 lando wp plugin activate wp-cfm
