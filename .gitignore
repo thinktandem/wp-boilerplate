@@ -1,3 +1,4 @@
 config/
 vendor/
 web/
+node_modules/

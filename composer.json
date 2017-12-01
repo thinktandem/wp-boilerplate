@@ -24,7 +24,11 @@
   "require": {
     "composer/installers": "^1.4",
     "slowprog/composer-copy-file": "~0.2",
-    "thinktandem/bedrock": "dev-master"
+    "thinktandem/bedrock": "dev-master",
+    "timber/timber": "^1.5",
+    "wpackagist-plugin/wp-cfm": "^1.4",
+    "wpackagist-plugin/advanced-custom-fields": "^5.6",
+    "wpackagist-plugin/debug-bar": "^0.9.0"
   },
   "scripts": {
       "post-install-cmd": [
