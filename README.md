@@ -4,13 +4,8 @@
 
 You can clone or fork this repo and make your own site.
 
-After duplicating the repo, run the following:
+After duplicating the repo, run the setup with:
 
 ```bash
-git remote add bedrock git@github.com:thinktandem/bedrock.git
-git fetch bedrock
-git pull bedrock master --rebase
-
-# Run the setup
 npm run setup
 ```
