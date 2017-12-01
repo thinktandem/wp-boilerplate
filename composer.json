@@ -1,0 +1,51 @@
+{
+  "name": "thinktandem/wp-boilerplate",
+  "description": "Tandem WordPress Boilerplate",
+  "type": "project",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "John Ouellet",
+      "email": "john@thinktandem.io"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/thinktandem/bedrock"
+    }
+  ],
+  "require": {
+    "composer/installers": "^1.4",
+    "slowprog/composer-copy-file": "~0.2",
+    "thinktandem/bedrock": "dev-master"
+  },
+  "scripts": {
+      "post-install-cmd": [
+          "SlowProg\\CopyFile\\ScriptHandler::copy"
+      ],
+      "post-update-cmd": [
+          "SlowProg\\CopyFile\\ScriptHandler::copy"
+      ]
+  },
+  "extra": {
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "web/wp",
+    "copy-file": {
+        "vendor/thinktandem/bedrock/config": "config/",
+        "vendor/thinktandem/bedrock/web/app": "web/app",
+        "vendor/thinktandem/bedrock/web/index.php": "web/",
+        "vendor/thinktandem/bedrock/web/wp-config.php": "web/"
+    }
+  }
+}
