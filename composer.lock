@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa5b203a0910c71a6eb2af7900e2c36b",
+    "content-hash": "601ed5e9a13a432361553d0d58d9ff49",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -567,7 +567,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thinktandem/bedrock",
-                "reference": "49ec0fa7f72664e0cf273e1afd3bd07b1c60d2f2"
+                "reference": "94d1d12bf8179a1ef45b89ce84990eaa86ec881d"
             },
             "require": {
                 "composer/installers": "^1.4",
@@ -633,7 +633,36 @@
                 "issues": "https://github.com/roots/bedrock/issues",
                 "forum": "https://discourse.roots.io/category/bedrock"
             },
-            "time": "2017-12-01 20:30:56"
+            "time": "2017-12-01 20:43:30"
+        },
+        {
+            "name": "thinktandem/timber-starter-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thinktandem/timber-starter-theme",
+                "reference": "be790a8eb30ff5b74da3559f0b7d0bc5c6d2e745"
+            },
+            "require": {
+                "wpackagist-plugin/timber-library": "0.22.*"
+            },
+            "type": "wordpress-theme",
+            "extra": {
+                "installer-paths": {
+                    "../../plugins/{$name}/": [
+                        "wpackagist-plugin/*",
+                        "type:wordpress-plugin"
+                    ]
+                }
+            },
+            "authors": [
+                {
+                    "name": "jarednova",
+                    "email": "jared@upstatement.com"
+                }
+            ],
+            "description": "Starter theme to build a Timber theme",
+            "time": "2017-12-01 20:51:52"
         },
         {
             "name": "timber/timber",
@@ -904,6 +933,26 @@
             "homepage": "https://wordpress.org/plugins/debug-bar/"
         },
         {
+            "name": "wpackagist-plugin/timber-library",
+            "version": "0.22.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/timber-library/",
+                "reference": "tags/0.22.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/timber-library.0.22.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/timber-library/"
+        },
+        {
             "name": "wpackagist-plugin/wp-cfm",
             "version": "1.4.5",
             "source": {
@@ -928,7 +977,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "thinktandem/bedrock": 20
+        "thinktandem/bedrock": 20,
+        "thinktandem/timber-starter-theme": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
