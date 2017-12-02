@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-echo "******************************"
-echo "** Tandem Bedrock Installer **"
-echo "******************************"
+echo "********************************"
+echo "** Tandem WordPress Installer **"
+echo "********************************"
 
 echo "Run Install? (y/n)"
 read -e run
