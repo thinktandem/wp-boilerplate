@@ -567,7 +567,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thinktandem/bedrock",
-                "reference": "94d1d12bf8179a1ef45b89ce84990eaa86ec881d"
+                "reference": "cca404ca174ac8458a55915a8949edb6163a24d3"
             },
             "require": {
                 "composer/installers": "^1.4",
@@ -633,7 +633,7 @@
                 "issues": "https://github.com/roots/bedrock/issues",
                 "forum": "https://discourse.roots.io/category/bedrock"
             },
-            "time": "2017-12-01 20:43:30"
+            "time": "2017-12-02 00:07:17"
         },
         {
             "name": "thinktandem/timber-starter-theme",
