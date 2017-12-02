@@ -39,8 +39,6 @@ lando start
 # copy and adjust the env file
 cp .env.lando .env
 sed -i -e "s#demosite#$url#g" .env
-lando wp package install aaemnnosttv/wp-cli-dotenv-command
-lando wp dotenv salts regenerate
 
 # install WordPress
 lando wp core install --url="$url" --title="$sitename" --admin_user="$username" --admin_password="$password" --admin_email="$email"
