@@ -57,8 +57,7 @@
         "vendor/thinktandem/bedrock/config": "config/",
         "vendor/thinktandem/bedrock/web/app": "web/app",
         "vendor/thinktandem/bedrock/web/index.php": "web/",
-        "vendor/thinktandem/bedrock/web/wp-config.php": "web/",
-        "web/app/plugins/wp-redis/object-cache.php": "web/app"
+        "vendor/thinktandem/bedrock/web/wp-config.php": "web/"
     }
   }
 }
