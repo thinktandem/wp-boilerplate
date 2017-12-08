@@ -10,9 +10,11 @@ Theming / Site Building:
 * [Timber](https://github.com/timber/timber)
 * [Tandem's Timber Starter Theme](https://github.com/thinktandem/timber-starter-theme)
 * [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/)
-* [Debug Bar](https://wordpress.org/plugins/debug-bar/)
+* [FooGallery](https://wordpress.org/plugins/foogallery/)
+* [Ninja Forms](https://wordpress.org/plugins/ninja-forms/)
 
-Config Management:
+Config Management / Development:
+* [Debug Bar](https://wordpress.org/plugins/debug-bar/)
 * [WP-CFM](https://wordpress.org/plugins/wp-cfm/)
 
 SEO:
@@ -23,6 +25,11 @@ SEO:
 Performance:
 * [WP Redis](https://wordpress.org/plugins/wp-redis)
 * [Autoptimize](https://wordpress.org/plugins/autoptimize/)
+
+_Not Included But Recommended_
+
+* [WP Rocket](https://wp-rocket.me/): It is a paid only plugin, there is no composer repo.
+
 
 ### Lando Install
 
@@ -54,6 +61,4 @@ When the site is ready for live, enable this plugin and set it up here: ```wp/wp
 
 If you are using Redis, then you will need to do a few more steps: https://wordpress.org/plugins/wp-redis/#installation
 
-**WP Rocket**
 
-Not included because it is a paid only plugin, but we highly recommend: https://wp-rocket.me/

@@ -36,7 +36,9 @@
     "wpackagist-plugin/debug-bar": "^0.9.0",
     "yoast/wordpress-seo": "^5.9",
     "wpackagist-plugin/wp-seo-structured-data-schema": "^2.3",
-    "wpackagist-plugin/google-analytics-dashboard-for-wp": "5.1.2.3"
+    "wpackagist-plugin/google-analytics-dashboard-for-wp": "5.1.2.3",
+    "wpackagist-plugin/foogallery": "^1.4",
+    "wpackagist-plugin/ninja-forms": "^3.2"
   },
   "scripts": {
       "post-install-cmd": [
