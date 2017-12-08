@@ -2,3 +2,5 @@ config/
 vendor/
 web/
 node_modules/
+.env
+.lando.yml

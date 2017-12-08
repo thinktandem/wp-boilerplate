@@ -457,16 +457,16 @@
         },
         {
             "name": "slowprog/composer-copy-file",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slowprog/CopyFile.git",
-                "reference": "c76bcc6f54abb6fca379d2bfbe1963f215f93450"
+                "reference": "400c2b7c9f9f8ed8195217ae143ffbf3fec84c31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slowprog/CopyFile/zipball/c76bcc6f54abb6fca379d2bfbe1963f215f93450",
-                "reference": "c76bcc6f54abb6fca379d2bfbe1963f215f93450",
+                "url": "https://api.github.com/repos/slowprog/CopyFile/zipball/400c2b7c9f9f8ed8195217ae143ffbf3fec84c31",
+                "reference": "400c2b7c9f9f8ed8195217ae143ffbf3fec84c31",
                 "shasum": ""
             },
             "require": {
@@ -500,7 +500,7 @@
             "keywords": [
                 "copy file"
             ],
-            "time": "2017-03-26T15:42:45+00:00"
+            "time": "2017-12-07T13:18:47+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -567,7 +567,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thinktandem/bedrock",
-                "reference": "cca404ca174ac8458a55915a8949edb6163a24d3"
+                "reference": "5c8f2e5f4df516a5300238411426530558eb5acf"
             },
             "require": {
                 "composer/installers": "^1.4",
@@ -633,7 +633,7 @@
                 "issues": "https://github.com/roots/bedrock/issues",
                 "forum": "https://discourse.roots.io/category/bedrock"
             },
-            "time": "2017-12-02 00:07:17"
+            "time": "2017-12-02 01:40:09"
         },
         {
             "name": "thinktandem/timber-starter-theme",
@@ -641,7 +641,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thinktandem/timber-starter-theme",
-                "reference": "be790a8eb30ff5b74da3559f0b7d0bc5c6d2e745"
+                "reference": "6f81fe481180472fa7b0182d76cf3a965be826a4"
             },
             "require": {
                 "wpackagist-plugin/timber-library": "0.22.*"
@@ -662,7 +662,7 @@
                 }
             ],
             "description": "Starter theme to build a Timber theme",
-            "time": "2017-12-01 20:51:52"
+            "time": "2017-12-08 15:28:04"
         },
         {
             "name": "timber/timber",
