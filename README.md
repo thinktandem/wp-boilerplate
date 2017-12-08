@@ -28,7 +28,9 @@ Performance:
 
 _Not Included But Recommended_
 
-* [WP Rocket](https://wp-rocket.me/): It is a paid only plugin, there is no composer repo.
+* [WP Rocket](https://wp-rocket.me/): Caching plugin, most excellent. It is a paid only plugin, there is no composer repo.
+* [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/): Great for moving your site around to different instances / servers.
+* [Velvet Blues Update URLs](https://wordpress.org/plugins/velvet-blues-update-urls/): Run this after moving your site around to fix all your urls.
 
 
 ### Lando Install
