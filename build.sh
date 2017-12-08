@@ -47,6 +47,9 @@ lando wp core install --url="$url" --title="$sitename" --admin_user="$username" 
 lando wp plugin activate wp-cfm
 lando wp config pull install
 
+# Make sure the theme is enabled
+lando wp theme activate timber-starter-theme
+
 # Install the node modules.
 npm i
 
