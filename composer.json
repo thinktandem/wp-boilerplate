@@ -33,7 +33,10 @@
     "timber/timber": "^1.5",
     "wpackagist-plugin/wp-cfm": "^1.4",
     "wpackagist-plugin/advanced-custom-fields": "^5.6",
-    "wpackagist-plugin/debug-bar": "^0.9.0"
+    "wpackagist-plugin/debug-bar": "^0.9.0",
+    "yoast/wordpress-seo": "^5.9",
+    "wpackagist-plugin/wp-seo-structured-data-schema": "^2.3",
+    "wpackagist-plugin/google-analytics-dashboard-for-wp": "5.1.2.3"
   },
   "scripts": {
       "post-install-cmd": [
@@ -54,7 +57,8 @@
         "vendor/thinktandem/bedrock/config": "config/",
         "vendor/thinktandem/bedrock/web/app": "web/app",
         "vendor/thinktandem/bedrock/web/index.php": "web/",
-        "vendor/thinktandem/bedrock/web/wp-config.php": "web/"
+        "vendor/thinktandem/bedrock/web/wp-config.php": "web/",
+        "web/app/plugins/wp-redis/object-cache.php": "web/app"
     }
   }
 }

@@ -10,11 +10,35 @@ Includes:
 * [WP-CFM](https://wordpress.org/plugins/wp-cfm/)
 * [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/)
 * [Debug Bar](https://wordpress.org/plugins/debug-bar/)
+* [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)
+* [WP SEO Structured Data Schema](https://wordpress.org/plugins/wp-seo-structured-data-schema/)
+* [Google Analytics Dashboard for WP (GADWP)](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/)
+* [WP Redis](https://wordpress.org/plugins/wp-redis)
 
 ### Lando Install
 
 After duplicating the repo, run the setup with:
 
+_node install_
+
 ```bash
 npm run setup
 ```
+
+_non-node install_
+
+```bash
+chmod +x build.sh && ./build.sh
+```
+
+### Post Install
+
+**Yoast SEO**
+Is enabled by WP-CFM, but you will need to configure it: ```wp/wp-admin/admin.php?page=wpseo_dashboard```
+
+**GADWP**
+When the site is ready for live, enable this plugin and set it up here: ```wp/wp-admin/admin.php?page=gadash_settings```
+
+**Redis**
+
+If you are using Redis, then you will need to do a few more steps: https://wordpress.org/plugins/wp-redis/#installation
