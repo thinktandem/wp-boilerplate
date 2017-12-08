@@ -4,7 +4,7 @@
 
 You can clone or fork this repo and make your own site.
 
-Includes:
+**This Boilerplate includes**
 
 Theming / Site Building:
 * [Timber](https://github.com/timber/timber)
