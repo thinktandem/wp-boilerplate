@@ -6,23 +6,23 @@ You can clone or fork this repo and make your own site.
 
 **This Boilerplate includes**
 
-__Theming / Site Building__
+<ins>Theming / Site Building</ins>
 * [Timber](https://github.com/timber/timber)
 * [Tandem's Timber Starter Theme](https://github.com/thinktandem/timber-starter-theme)
 * [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/)
 * [FooGallery](https://wordpress.org/plugins/foogallery/)
 * [Ninja Forms](https://wordpress.org/plugins/ninja-forms/)
 
-__Config Management / Development__
+<ins>Config Management / Development</ins>
 * [Debug Bar](https://wordpress.org/plugins/debug-bar/)
 * [WP-CFM](https://wordpress.org/plugins/wp-cfm/)
 
-__SEO__
+<ins>SEO</ins>
 * [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)
 * [WP SEO Structured Data Schema](https://wordpress.org/plugins/wp-seo-structured-data-schema/)
 * [Google Analytics Dashboard for WP (GADWP)](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/)
 
-__Performance__
+<ins>Performance</ins>
 * [WP Redis](https://wordpress.org/plugins/wp-redis)
 * [Autoptimize](https://wordpress.org/plugins/autoptimize/)
 
