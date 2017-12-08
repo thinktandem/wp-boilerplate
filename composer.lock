@@ -641,10 +641,10 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thinktandem/timber-starter-theme",
-                "reference": "6f81fe481180472fa7b0182d76cf3a965be826a4"
+                "reference": "148989ed95e594cbc8f82e0e0e3455c8996d7479"
             },
             "require": {
-                "wpackagist-plugin/timber-library": "0.22.*"
+                "timber/timber": "^1.5"
             },
             "type": "wordpress-theme",
             "extra": {
@@ -662,7 +662,7 @@
                 }
             ],
             "description": "Starter theme to build a Timber theme",
-            "time": "2017-12-08 15:28:04"
+            "time": "2017-12-08 15:58:35"
         },
         {
             "name": "timber/timber",
@@ -931,26 +931,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar/"
-        },
-        {
-            "name": "wpackagist-plugin/timber-library",
-            "version": "0.22.6",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/timber-library/",
-                "reference": "tags/0.22.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/timber-library.0.22.6.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/timber-library/"
         },
         {
             "name": "wpackagist-plugin/wp-cfm",
