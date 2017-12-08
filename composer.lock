@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0832ded6610986550e1695953e448b2d",
+    "content-hash": "3ff1b19cbcb64caaf31193ee7a953892",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -567,7 +567,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thinktandem/bedrock",
-                "reference": "5c8f2e5f4df516a5300238411426530558eb5acf"
+                "reference": "872a13872ab369893f5f3c7d4a580b14f745515b"
             },
             "require": {
                 "composer/installers": "^1.4",
@@ -633,7 +633,7 @@
                 "issues": "https://github.com/roots/bedrock/issues",
                 "forum": "https://discourse.roots.io/category/bedrock"
             },
-            "time": "2017-12-02 01:40:09"
+            "time": "2017-12-08 21:04:12"
         },
         {
             "name": "thinktandem/timber-starter-theme",
@@ -913,6 +913,26 @@
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
+            "name": "wpackagist-plugin/autoptimize",
+            "version": "2.2.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/autoptimize/",
+                "reference": "tags/2.2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.2.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/autoptimize/"
+        },
+        {
             "name": "wpackagist-plugin/debug-bar",
             "version": "0.9",
             "source": {
@@ -983,7 +1003,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.2.4.zip",
-                "reference": null,
+                "reference": "tags/3.2.4",
                 "shasum": null
             },
             "require": {
