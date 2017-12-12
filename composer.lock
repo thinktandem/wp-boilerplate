@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ff1b19cbcb64caaf31193ee7a953892",
+    "content-hash": "dfd341b7eabb62ecfe77d3fec6c98200",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -636,12 +636,12 @@
             "time": "2017-12-08 21:04:12"
         },
         {
-            "name": "thinktandem/timber-starter-theme",
+            "name": "thinktandem/kesha",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/thinktandem/timber-starter-theme",
-                "reference": "148989ed95e594cbc8f82e0e0e3455c8996d7479"
+                "url": "https://github.com/thinktandem/kesha",
+                "reference": "e5eb87c71b14b0279ed7ce7732763b8e0d0482d4"
             },
             "require": {
                 "timber/timber": "^1.5"
@@ -662,7 +662,7 @@
                 }
             ],
             "description": "Starter theme to build a Timber theme",
-            "time": "2017-12-08 15:58:35"
+            "time": "2017-12-12 20:34:59"
         },
         {
             "name": "timber/timber",
@@ -894,16 +894,16 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "5.6.5",
+            "version": "5.6.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/5.6.5"
+                "reference": "tags/5.6.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.6.5.zip",
-                "reference": "tags/5.6.5",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.6.7.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -954,7 +954,7 @@
         },
         {
             "name": "wpackagist-plugin/foogallery",
-            "version": "1.4.8",
+            "version": "1.4.12",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/foogallery/",
@@ -962,8 +962,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/foogallery.zip?timestamp=1511279101",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/foogallery.zip?timestamp=1513104969",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1248,16 +1248,16 @@
         },
         {
             "name": "yoast/wordpress-seo",
-            "version": "5.9.1",
+            "version": "5.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Yoast/wordpress-seo.git",
-                "reference": "20dd0f03c4230cbc08cb757e657b5b7aa67d3952"
+                "reference": "1cba1f7f1dc5d3fe3abecc201ad38d694f8dcaa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Yoast/wordpress-seo/zipball/20dd0f03c4230cbc08cb757e657b5b7aa67d3952",
-                "reference": "20dd0f03c4230cbc08cb757e657b5b7aa67d3952",
+                "url": "https://api.github.com/repos/Yoast/wordpress-seo/zipball/1cba1f7f1dc5d3fe3abecc201ad38d694f8dcaa0",
+                "reference": "1cba1f7f1dc5d3fe3abecc201ad38d694f8dcaa0",
                 "shasum": ""
             },
             "require": {
@@ -1299,7 +1299,7 @@
                 "seo",
                 "wordpress"
             ],
-            "time": "2017-12-05T11:24:58+00:00"
+            "time": "2017-12-11T13:35:35+00:00"
         }
     ],
     "packages-dev": [],
@@ -1307,7 +1307,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "thinktandem/bedrock": 20,
-        "thinktandem/timber-starter-theme": 20
+        "thinktandem/kesha": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

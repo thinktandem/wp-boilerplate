@@ -22,14 +22,14 @@
     },
     {
       "type": "git",
-      "url": "https://github.com/thinktandem/timber-starter-theme"
+      "url": "https://github.com/thinktandem/kesha"
     }
   ],
   "require": {
     "composer/installers": "^1.4",
     "slowprog/composer-copy-file": "~0.2",
     "thinktandem/bedrock": "dev-master",
-    "thinktandem/timber-starter-theme": "dev-master",
+    "thinktandem/kesha": "dev-master",
     "timber/timber": "^1.5",
     "wpackagist-plugin/wp-cfm": "^1.4",
     "wpackagist-plugin/advanced-custom-fields": "^5.6",
