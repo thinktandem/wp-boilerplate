@@ -48,7 +48,7 @@ lando wp plugin activate wp-cfm
 lando wp config pull install
 
 # Make sure the theme is enabled
-lando wp theme activate timber-starter-theme
+lando wp theme activate kesha
 
 # Install the node modules.
 npm i
