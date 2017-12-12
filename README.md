@@ -8,7 +8,7 @@ You can clone or fork this repo and make your own site.
 
 <ins>Theming / Site Building</ins>
 * [Timber](https://github.com/timber/timber)
-* [Ke$ha: Tandem's Timber Starter Theme](https://github.com/thinktandem/kesha)
+* [Ke$ha: Tandem's Timber Starter Theme feat. Bootstrap 4](https://github.com/thinktandem/kesha)
 * [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/)
 * [FooGallery](https://wordpress.org/plugins/foogallery/)
 * [Ninja Forms](https://wordpress.org/plugins/ninja-forms/)
