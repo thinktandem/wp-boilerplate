@@ -53,6 +53,10 @@ lando wp theme activate kesha
 # Install the node modules.
 npm i
 
+# remove and copy the deploy gitignore file
+rm .gitignore
+cp .gitignore.deploy .gitignore
+
 echo "Installation is complete."
 echo ""
 echo "Username: $username"
