@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfd341b7eabb62ecfe77d3fec6c98200",
+    "content-hash": "165d366aa9e14d8a68ab62a3f9dceb23",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -903,7 +903,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.6.7.zip",
-                "reference": null,
+                "reference": "tags/5.6.7",
                 "shasum": null
             },
             "require": {
@@ -923,7 +923,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/autoptimize.2.2.2.zip",
-                "reference": null,
+                "reference": "tags/2.2.2",
                 "shasum": null
             },
             "require": {
@@ -943,7 +943,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar.0.9.zip",
-                "reference": null,
+                "reference": "tags/0.9",
                 "shasum": null
             },
             "require": {
@@ -963,7 +963,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/foogallery.zip?timestamp=1513104969",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -971,6 +971,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/foogallery/"
+        },
+        {
+            "name": "wpackagist-plugin/foogallery-owl-carousel-template",
+            "version": "1.4.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/foogallery-owl-carousel-template/",
+                "reference": "tags/1.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/foogallery-owl-carousel-template.1.4.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/foogallery-owl-carousel-template/"
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
@@ -983,7 +1003,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.5.1.2.3.zip",
-                "reference": null,
+                "reference": "tags/5.1.2.3",
                 "shasum": null
             },
             "require": {
@@ -1003,7 +1023,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.2.5.zip",
-                "reference": null,
+                "reference": "tags/3.2.5",
                 "shasum": null
             },
             "require": {
@@ -1023,7 +1043,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-cfm.zip?timestamp=1467943964",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -1043,7 +1063,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-seo-structured-data-schema.2.3.zip",
-                "reference": null,
+                "reference": "tags/2.3",
                 "shasum": null
             },
             "require": {

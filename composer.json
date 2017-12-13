@@ -39,7 +39,8 @@
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "5.1.2.3",
     "wpackagist-plugin/foogallery": "^1.4",
     "wpackagist-plugin/ninja-forms": "^3.2",
-    "wpackagist-plugin/autoptimize": "^2.2"
+    "wpackagist-plugin/autoptimize": "^2.2",
+    "wpackagist-plugin/foogallery-owl-carousel-template": "^1.4"
   },
   "scripts": {
       "post-install-cmd": [
