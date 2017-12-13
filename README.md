@@ -69,5 +69,5 @@ If you are using Redis, then you will need to do a few more steps: https://wordp
 This is a starter theme and it meant to be hacked up.  If you don't want to have your changed overridden by composer update, do one of the following:
 
 1. Rename the theme and run ```find web/ -type d -name '.git*' -exec rm -rf {} +```.
-2. Run: ```find web/ -type d -name '.git*' -exec rm -rf {} +``` and remove the kesha theme from composer.json, then run ```composer update``` again.
+2. Remove the kesha theme from composer.json, then run ```composer update``` again.  Go to your themes folder and run ```git clone git@github.com:thinktandem/kesha.git```. Then run ```find web/ -type d -name '.git*' -exec rm -rf {} +```.
 
