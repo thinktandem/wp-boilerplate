@@ -64,4 +64,10 @@ When the site is ready for live, enable this plugin and set it up here: ```wp/wp
 
 If you are using Redis, then you will need to do a few more steps: https://wordpress.org/plugins/wp-redis/#installation
 
+**Ke$ha Theme**
+
+This is a starter theme and it meant to be hacked up.  If you don't want to have your changed overridden by composer update, do 1 of the following:
+
+1. Rename the theme and run ```find web/ -type d -name '.git*' -exec rm -rf {} +```.
+2. Run: ```find web/ -type d -name '.git*' -exec rm -rf {} +``` and remove the kesha theme from composer.json, then run ```composer update``` again.
 
