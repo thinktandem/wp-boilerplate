@@ -4,6 +4,7 @@
   "license": "GPL-2.0",
   "scripts": {
     "setup": "chmod +x build.sh && ./build.sh",
+    "setup:theme": "cd web/app/themes/kesha && npm i && grunt",
     "start": "npm i",
     "predeploy": "npm start",
     "deploy": "npm run deploy:removegit",
