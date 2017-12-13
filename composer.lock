@@ -641,7 +641,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thinktandem/kesha",
-                "reference": "e5eb87c71b14b0279ed7ce7732763b8e0d0482d4"
+                "reference": "5679c40d4eb61ab7bb37fddce1796ea2e4ba925b"
             },
             "require": {
                 "timber/timber": "^1.5"
@@ -662,7 +662,7 @@
                 }
             ],
             "description": "Starter theme to build a Timber theme",
-            "time": "2017-12-12 20:34:59"
+            "time": "2017-12-13 02:05:11"
         },
         {
             "name": "timber/timber",
@@ -943,7 +943,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar.0.9.zip",
-                "reference": "tags/0.9",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -983,7 +983,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.5.1.2.3.zip",
-                "reference": "tags/5.1.2.3",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -994,16 +994,16 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.2.4",
+            "version": "3.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.2.4"
+                "reference": "tags/3.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.2.4.zip",
-                "reference": "tags/3.2.4",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.2.5.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1023,7 +1023,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-cfm.zip?timestamp=1467943964",
-                "reference": "trunk",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1043,7 +1043,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-seo-structured-data-schema.2.3.zip",
-                "reference": "tags/2.3",
+                "reference": null,
                 "shasum": null
             },
             "require": {
