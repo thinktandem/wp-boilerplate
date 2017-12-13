@@ -53,6 +53,9 @@ lando wp theme activate kesha
 # Install the node modules.
 npm i
 
+# Setup Ke$ha
+cd web/app/themes/kesha && lando npm i && lando grunt
+
 # remove and copy the deploy gitignore file
 rm .gitignore
 cp .gitignore.deploy .gitignore
