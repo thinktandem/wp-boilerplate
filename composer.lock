@@ -641,7 +641,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thinktandem/kesha",
-                "reference": "5679c40d4eb61ab7bb37fddce1796ea2e4ba925b"
+                "reference": "755aae80e0a3a270c20a18b78f31f768deae18ba"
             },
             "require": {
                 "timber/timber": "^1.5"
@@ -662,7 +662,7 @@
                 }
             ],
             "description": "Starter theme to build a Timber theme",
-            "time": "2017-12-13 02:05:11"
+            "time": "2017-12-14 23:09:09"
         },
         {
             "name": "timber/timber",
@@ -1014,16 +1014,16 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.2.5",
+            "version": "3.2.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.2.5"
+                "reference": "tags/3.2.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.2.5.zip",
-                "reference": "tags/3.2.5",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.2.6.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
