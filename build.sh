@@ -30,8 +30,8 @@ read -e password
 echo "WordPress Email: "
 read -e email
 
-# Install dependencies
-lando composer install
+echo "ACP Pro Key: "
+read -e acp
 
 # Start up the site
 lando start
@@ -39,6 +39,10 @@ lando start
 # copy and adjust the env file
 cp .env.lando .env
 sed -i -e "s#demosite#$url#g" .env
+sed -i -e "s#acpkey#$acp#g" .env
+
+# Install dependencies
+lando composer install
 
 # install WordPress
 lando wp core install --url="$url" --title="$sitename" --admin_user="$username" --admin_password="$password" --admin_email="$email"

@@ -9,7 +9,7 @@ You can clone or fork this repo and make your own site.
 <ins>Theming / Site Building</ins>
 * [Timber](https://github.com/timber/timber)
 * [Ke$ha: Tandem's Timber Starter Theme feat. Bootstrap 4](https://github.com/thinktandem/kesha)
-* [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/)
+* [Advanced Custom Fields PRO](https://www.advancedcustomfields.com/pro/)
 * [FooGallery](https://wordpress.org/plugins/foogallery/)
 * [FooGallery Owl Carousel Template](https://wordpress.org/plugins/foogallery-owl-carousel-template/)
 * [Ninja Forms](https://wordpress.org/plugins/ninja-forms/)
