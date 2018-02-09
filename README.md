@@ -22,6 +22,8 @@ You can clone or fork this repo and make your own site.
 * [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)
 * [WP SEO Structured Data Schema](https://wordpress.org/plugins/wp-seo-structured-data-schema/)
 * [Google Analytics Dashboard for WP (GADWP)](https://wordpress.org/plugins/google-analytics-dashboard-for-wp/)
+* [Head, Footer and Post Injections](https://wordpress.org/plugins/header-footer/)
+* [Safe Redirect Manager](https://wordpress.org/plugins/safe-redirect-manager/)
 
 <ins>Performance</ins>
 * [WP Redis](https://wordpress.org/plugins/wp-redis)

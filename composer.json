@@ -56,7 +56,9 @@
     "wpackagist-plugin/foogallery": "^1.4",
     "wpackagist-plugin/ninja-forms": "^3.2",
     "wpackagist-plugin/autoptimize": "^2.2",
-    "wpackagist-plugin/foogallery-owl-carousel-template": "^1.4"
+    "wpackagist-plugin/foogallery-owl-carousel-template": "^1.4",
+    "wpackagist-plugin/header-footer": "^3.1",
+    "wpackagist-plugin/safe-redirect-manager": "^1.8"
   },
   "scripts": {
       "post-install-cmd": [
