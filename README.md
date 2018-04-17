@@ -1,4 +1,5 @@
-## Tandem's WordPress Boilerplate
+Tandem's WordPress Boilerplate
+------------------------------
 
 **Utilizes Tandem's modified version of [Bedrock](https://github.com/thinktandem/bedrock)**
 
@@ -36,23 +37,28 @@ _Not Included But Recommended_
 * [Velvet Blues Update URLs](https://wordpress.org/plugins/velvet-blues-update-urls/): Run this after moving your site around to fix all your urls.
 
 
-### Lando Install
+Starting a new Project
+----------------------
 
-After duplicating the repo, run the setup with:
-
-_node install_
-
-```bash
-npm run setup
-```
-
-_non-node install_
+* clone this repo:
 
 ```bash
-chmod +x build.sh && ./build.sh
+git clone git@github.com:thinktandem/wp-boilerplate.git YOURPROJECT
 ```
 
-### Post Install
+* run the `build.sh` script:
+
+```bash
+cd YOURPROJECT
+./build.sh
+```
+
+The build script will prompt your for the name of the new project, and the information needed to install wordpress. It then starts lando, runs `composer install`, `npm install` in project root and in the `kesha` theme, then installs WordPress.
+
+Of note the `build.sh` script needs a `ACF_PRO_KEY` without this key the `composer install` step will fail and nothing after it will be run. You can get the key from a Tandem project lead.
+
+Post Install
+------------
 
 **Yoast SEO**
 

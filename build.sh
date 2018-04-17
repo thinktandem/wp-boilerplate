@@ -1,8 +1,15 @@
 #!/usr/bin/env bash
 
+# Some constants.
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+DEFAULT_COLOR='\033[0;0m'
+
+printf "${GREEN}"
 echo "********************************"
 echo "** Tandem WordPress Installer **"
 echo "********************************"
+printf "${DEFAULT_COLOR}"
 
 echo "Run Install? (y/n)"
 read -e run
@@ -17,8 +24,7 @@ read -e sitename
 # site url
 url="http://$sitename.lndo.site"
 
-# Generate the lando file
-cp .lando.example .lando.yml
+# Update the .lando.ynml file
 sed -i -e "s/demosite/$sitename/g" .lando.yml
 
 echo "WordPress Username: "
@@ -30,19 +36,16 @@ read -e password
 echo "WordPress Email: "
 read -e email
 
-echo "ACP Pro Key: "
+echo "ACF Pro Key: "
 read -e acp
-
-# Start up the site
-lando start
 
 # copy and adjust the env file
 cp .env.lando .env
 sed -i -e "s#demosite#$url#g" .env
 sed -i -e "s#acpkey#$acp#g" .env
 
-# Install dependencies
-lando composer install
+# Start Lando
+lando start
 
 # install WordPress
 lando wp core install --url="$url" --title="$sitename" --admin_user="$username" --admin_password="$password" --admin_email="$email"
@@ -54,15 +57,9 @@ lando wp config pull install
 # Make sure the theme is enabled
 lando wp theme activate kesha
 
-# Install the node modules.
-npm i
-
-# remove and copy the deploy gitignore file
-rm .gitignore
-cp .gitignore.deploy .gitignore
-
-# Setup Ke$ha
-cd web/app/themes/kesha && lando npm i && lando grunt
+# Clean up
+rm .env-e
+rm .lando.yml-e
 
 echo "Installation is complete."
 echo ""
@@ -72,3 +69,4 @@ echo "Email: $email"
 echo ""
 
 fi
+
