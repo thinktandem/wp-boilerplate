@@ -1,4 +1,4 @@
-name: boil 
+name: demosite
 recipe: wordpress
 config:
   webroot: web
