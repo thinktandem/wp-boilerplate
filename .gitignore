@@ -1,6 +1,29 @@
-config/
-vendor/
-web/
-node_modules/
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Dotenv
 .env
-.lando.yml
+.env.*
+!.env.example
+!.env.lando
+
+# Node
+node_modules/
+
+# Composer
+vendor/*
+!vendor/.gitkeep
+
+# OS and Editor files
+.*.swp
+.DS_Store
+.idea
