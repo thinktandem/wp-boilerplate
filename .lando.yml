@@ -1,0 +1,25 @@
+name: boil 
+recipe: wordpress
+config:
+  webroot: web
+  xdebug: true
+services:
+  appserver:
+    run:  
+      - cd $LANDO_MOUNT && composer install
+  nodeserver:
+    type: node:8
+    globals:
+      grunt-cli: "latest"
+    run:
+      - cd $LANDO_MOUNT && npm i
+      - cd $LANDO_MOUNT/web/app/themes/kesha && npm i 
+      - cd $LANDO_MOUNT/web/app/themes/keshh && npm i grunt-contrib-uglify && grunt  
+
+tooling:
+  npm:
+    service: nodeserver
+  node:
+    service: nodeserver
+  grunt:
+    service: nodeserver
