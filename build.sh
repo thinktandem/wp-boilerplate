@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Some constants.
 GREEN='\033[0;32m'
 RED='\033[0;31m'
 DEFAULT_COLOR='\033[0;0m'
@@ -35,16 +36,16 @@ read -e password
 echo "WordPress Email: "
 read -e email
 
-echo "ACP Pro Key: "
+echo "ACF Pro Key: "
 read -e acp
-
-# start lando
-lando start
 
 # copy and adjust the env file
 cp .env.lando .env
 sed -i -e "s#demosite#$url#g" .env
 sed -i -e "s#acpkey#$acp#g" .env
+
+# Start Lando
+lando start
 
 # install WordPress
 lando wp core install --url="$url" --title="$sitename" --admin_user="$username" --admin_password="$password" --admin_email="$email"
@@ -56,6 +57,10 @@ lando wp config pull install
 # Make sure the theme is enabled
 lando wp theme activate kesha
 
+# Clean up
+rm .env-e
+rm .lando.yml-e
+
 echo "Installation is complete."
 echo ""
 echo "Username: $username"
@@ -64,3 +69,4 @@ echo "Email: $email"
 echo ""
 
 fi
+
