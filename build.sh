@@ -4,11 +4,11 @@ GREEN='\033[0;32m'
 RED='\033[0;31m'
 DEFAULT_COLOR='\033[0;0m'
 
-echo "${GREEN}"
+printf "${GREEN}"
 echo "********************************"
 echo "** Tandem WordPress Installer **"
 echo "********************************"
-echo "${DEFAULT_COLOR}"
+printf "${DEFAULT_COLOR}"
 
 echo "Run Install? (y/n)"
 read -e run
@@ -42,9 +42,6 @@ read -e acp
 cp .env.lando .env
 sed -i -e "s#demosite#$url#g" .env
 sed -i -e "s#acpkey#$acp#g" .env
-
-# Install dependencies
-lando composer install
 
 # install WordPress
 lando wp core install --url="$url" --title="$sitename" --admin_user="$username" --admin_password="$password" --admin_email="$email"
