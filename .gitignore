@@ -25,5 +25,5 @@ vendor/*
 
 # OS and Editor files
 .*.swp
-.DS_Store
 .idea
+.DS_Store
