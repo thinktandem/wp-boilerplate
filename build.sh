@@ -38,6 +38,9 @@ read -e email
 echo "ACP Pro Key: "
 read -e acp
 
+# start lando
+lando start
+
 # copy and adjust the env file
 cp .env.lando .env
 sed -i -e "s#demosite#$url#g" .env
