@@ -1,4 +1,4 @@
-# DEPRECATED, use https://github.com/thinktandem/template-wordpress-platformsh as a starting point instead.  Remove the platform.sh code if you want.
+# DEPRECATED, use https://github.com/thinktandem/template-wordpress-platformsh as a starting point instead.
 
 Tandem's WordPress Boilerplate
 ------------------------------
